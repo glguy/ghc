@@ -1371,7 +1371,7 @@ data TyVarBndr = PlainTV  Name            -- ^ @a@
       deriving( Show, Eq, Data, Typeable )
 
 data TyLit = NumTyLit Integer             -- ^ @2@
-           | StrTyLit String              -- ^ @"Hello"@
+           | StrTyLit String              -- ^ @\"Hello\"@
   deriving ( Show, Eq, Data, Typeable )
 
 -- | Role annotations
